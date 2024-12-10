@@ -1,4 +1,4 @@
-package com.springBoot.crud.example.security;
+package com.springBoot.crud.example.config;
 
 
 import org.springframework.context.annotation.Bean;
