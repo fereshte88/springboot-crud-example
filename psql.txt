@@ -1,0 +1,7 @@
+postgre sql query
+
+psql -l                              //list of all database
+psql \database_name                  // enter database 
+database_name=# \dt                  // list of all table
+database_name=# \d table_name       // show table columns
+table_name=# select * from table_name;
