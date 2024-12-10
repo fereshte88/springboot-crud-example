@@ -41,18 +41,18 @@ public class SecurityConfig {
     @Bean
     public UserDetailsService userDetailsService(){
 
-        UserDetails john = User.builder()
+        UserDetails fereshteh = User.builder()
                 .username("fereshteh")
                 .password(passwordEncoder().encode("fereshteh"))
                 .roles("USER")
                 .build();
 
-        UserDetails sam = User.builder()
+        UserDetails rad = User.builder()
                 .username("rad")
                 .password(passwordEncoder().encode("rad"))
                 .roles("ADMIN")
                 .build();
 
-        return new InMemoryUserDetailsManager(john,sam);
+        return new InMemoryUserDetailsManager(fereshteh,rad);
     }
 }
