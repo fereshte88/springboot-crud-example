@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.springBoot.crud.example</groupId>
 	<artifactId>springboot-crud-example</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>springboot crud example</name>
 	<description>Spring Boot crud example</description>
 	<url/>
